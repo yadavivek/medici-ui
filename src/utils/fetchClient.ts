@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Create an instance of Axios
 const fetchClient = axios.create({
-    baseURL: "http://localhost:8080", // Replace with your API base URL
+    baseURL: "http://34.135.166.70", // Replace with your API base URL
     timeout: 10000, // Timeout in milliseconds
 });
 
