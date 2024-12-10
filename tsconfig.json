@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    // other options...
+    "jsx": "react-jsx", // For React 17+ (or "react" for older React versions)
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "typeRoots": ["node_modules/@types"],
+    "types": ["jest","node"], // Add Jest types
+  }
+}
